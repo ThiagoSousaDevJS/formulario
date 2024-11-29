@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de viagens</title>
+</head>
+<body>
+   <header>
+        <div>
+            <img src="./img/local-logo.png" alt="Logo">
+            <p>Agência de Viagens</p>
+        </div>
+   </header>
+
+   <main>
+    <section>
+        <div>
+            <img src="./img/aviao.png" alt="icone">
+            <h1>Solicite um orçamento</h1>
+        </div>
+
+        <div>
+            <h2>Informe seus dados</h2>
+            <form method="post" action=""></form>
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" name="nome" placeholder="Nome completo" required>
+            <label for="e-mail">E-mail</label>
+            <input id="email" name="email" type="email" placeholder="Email para contato">
+            <label for="celular">Celular</label>
+            <input id="celular" name="celular" type="tel" placeholder="(xx) xxxxx-xxxx">
+            <div>
+                <section>
+                    <label for="dataIda">Data da ida</label>
+                    <input id="dataIda" name="dataIda"  type="date">
+                </section>
+                <section>
+                    <label for="dataVolta">Data da volta</label>
+                    <input id="dataVolta" name="dataVolta" type="date">
+                </section>
+            </div>
+
+            <div>
+                <section>
+                  <label for="origem">Origem</label>
+                  <select name="origem" id="origem" required>
+                    <option value="" >Partindo de</option>
+                    <option value="">Rio de janeiro</option>
+                    <option value="">São Paulo</option>
+                    <option value="">Maranhão</option>
+                  </select>
+                </section>
+
+                <section>
+                    <label for="destino">Destino</label>
+                    <select name="destino" id="destino" required>
+                        <option value="" >Indo para</option>
+                        <option value="">Rio de Janeiro</option>
+                        <option value="">São Paulo</option>
+                        <option value="">Maranhão</option>
+                    </select>
+                </section>
+            </div>
+
+            <div>
+                <section>
+                    <label for="quartoInfantil">Quarto com cama infantil?</label required>
+                    <input id="infantil-sim" name="resposta" type="radio" value="sim">
+                    <label for="infantil-sim">Sim</label>
+                    <input type="radio" id="infantil-nao" name="resposta" value="nao">
+                    <label for="infantil-nao">Não</label>
+                </section>
+            </div>
+
+            <div>
+                <section>
+                    <label for="preferencias">preferências de hospedagem</label required>
+                    <input id="escolhas" name="resposta" type="checkbox" value="piscina">
+                    <label for="escolhas">Piscina</label>
+                    <input id="escolhas" name="resposta" type="checkbox" value="wifi">
+                    <label for="escolhas">Wifi</label>
+                   <input id="escolhas" name="resposta" type="checkbox" value="garagem">
+                   <label for="resposta">Garagem</label>
+                   <input id="escolhas" name="resposta" type="checkbox" value="suite">
+                   <label for="escolhas">Suite</label>
+                </section>
+            </div>
+            <button type="submit">Solicitar orçamento</button>
+        </div>
+    </section>
+
+    <div>
+        <section>
+            <h2>ÁREA DE OFERTAS</h2>
+            <h3>Ofertas</h3>
+            <p>Com até 50% de desconto.</p>
+            <figure>
+                <img src="./img/rio.jpg" alt="Rio de Janeiro" title="Rio de Janeiro">
+                <figcaption>Ro de Janeiro</figcaption>
+            </figure>
+        </section>
+        <section>
+            <figure>
+                <img src="./img/manaus.jpg" alt="Manaus" title="Manaus">
+                <figure>Manaus</figure>
+            </figure>
+
+            <figure>
+                <img src="./img/saopaulo.jpg" alt="São Paulo" title="São Paulo">
+                <figcaption>São Paulo</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./img/niteroi.jpg" alt="Niterói" title="Niterói">
+                <figcaption>Rio de Janeiro</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./img/maranhao.jpg" alt="Maranhão" title="Maranhão">
+                <figcaption>Maranhão</figcaption>
+            </figure>
+        </section>
+    </div>
+
+    <div>
+        <section>
+            <h2>Explore a Natureza</h2>
+            <p>Viaje conosco e veja o melhor que a natureza tem a oferecer.</p>
+        </section>
+        
+        <section>
+            <figure>
+                <img src="./img/lencol.jpg" alt="Lençol Maranhaense" title="Lençol Maranhaense">
+            </figure>
+            <figcaption>Lençois Maranhenses, Brasil <p>
+                Ida e volta a partir de R$79</p> </figcaption>
+
+            <figure> 
+                <img src="./img/goias.jpg" alt="Goias" title="Goias">
+            </figure>
+            <figcaption>Cachoeira Santa Bárbara, Brasil <p>Ida e volta por R$139</p></figcaption>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div>
+        <section>
+            <h2>Contato</h2>
+            <figure>
+                <img src="./img/local.png" alt="Localização"> <span>Rio de Janeiro, RJ</span>
+            </figure>
+
+            <figure>
+                <img src="./img/telefone.png" alt="Telefone"> <span>Telefone: (21) 9999-9999</span>
+            </figure>
+
+            <figure>
+                <img src="./img/email.png" alt="E-mail">
+                <span>Email: contato@agencia.com.br</span>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Nossas Redes Sociais</h2>
+            <figure>
+                <img src="./img/fb.png" alt="Facebook">
+                <span>/AgenciaDeViagem</span>
+            </figure>
+
+            <figure>
+                <img src="./img/ig.png" alt="Instagram">
+                <span>@AgenciaDeViagem</span>
+            </figure>
+
+            <figure>
+                <img src="./img/tt.png" alt="">
+                <span>@AgenciaDeViagem</span>
+            </figure>
+        </section>
+    </div>
+
+</footer>
+    
+</body>
+</html>
